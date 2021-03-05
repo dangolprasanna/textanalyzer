@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Text Analyzer
+    </title>
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Text Analyzer</h1>
+        <div >
+            <form id="reset">
+                <textarea name="paragraph_text" cols="50" rows="10" id="box"></textarea><br>
+                <input type="button" onclick="display()"  value="Count">
+                <input type="button" onclick="rset()" value="Reset">
+        </form>
+        </div>
+        <br>
+       
+        <table>
+            <tr>
+                <td>
+                    <h3>Number of letters:</h3>
+
+                </td>
+                <td>
+                    <h3>Number of vowels:</h3>
+
+                </td>
+                <td>
+                    <h3>Number of special characters:</h3>
+
+                </td>
+                <td> 
+                    <h3>Number of numeric values:</h3>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="demo">
+           
+                    </div>
+                </td>
+                <td>
+                    <div id="demo1">
+           
+                    </div>
+                </td>
+                <td>
+                    <div id="demo2">
+           
+                    </div>
+                </td>
+                <td>
+                    <div id="demo3">  
+                     </div>
+                </td>
+            </tr>
+        </table>
+        <script src="count.js">
+    
+        </script>
+    </body>
+</html>

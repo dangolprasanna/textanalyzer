@@ -1,0 +1,47 @@
+
+#box{
+    width: 20cm;
+    height: 5cm;
+    margin-left: 20%;
+}
+body{
+    background-color: rgb(147, 153, 153);
+}
+
+#reset{
+    color: white;
+}
+h1,h3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+}
+#demo, #demo1,#demo2,#demo3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1cm;
+}
+
+td,table{
+    border: black 2px solid ;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    padding: 5px;
+}
+table{
+    position: absolute;
+    left: 15%;
+}
+input{
+    font-size: large;
+    position: relative;
+    left: 14.5cm;
+    padding: 6px 18px;
+    background-color: cornflowerblue;
+    text-decoration: wavy;
+    margin-top: .5cm;
+
+}
+input:hover{
+    background-color: rgb(37, 85, 173);
+}
