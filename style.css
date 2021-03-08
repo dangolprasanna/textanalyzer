@@ -4,10 +4,18 @@
     height: 5cm;
     margin-left: 20%;
 }
-body{
-    background-color: rgb(147, 153, 153);
+.css-selector {
+    background: linear-gradient(156deg, #a1c4fd, #c2e9fb, #4092b7, #114861);
+    background-size: 800% 800%;
+
+    animation: htmlcolor 30s ease infinite;
 }
 
+@keyframes htmlcolor {
+    0%{background-position:0% 25%}
+    50%{background-position:100% 76%}
+    100%{background-position:0% 25%}
+}
 #reset{
     color: white;
 }
@@ -37,11 +45,18 @@ input{
     position: relative;
     left: 14.5cm;
     padding: 6px 18px;
-    background-color: cornflowerblue;
-    text-decoration: wavy;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);    text-decoration: wavy;
     margin-top: .5cm;
-
+    opacity: .8;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 40px;
+    
 }
 input:hover{
-    background-color: rgb(37, 85, 173);
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);    
+    opacity: 1;
+}
+textarea{
+    background-color: #e2e2e2;
 }
