@@ -28,6 +28,7 @@ h1,h3{
     font-size: 1cm;
 }
 
+
 td,table{
     border: black 2px solid ;
     border-collapse: collapse;
@@ -56,7 +57,29 @@ input{
 input:hover{
     background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);    
     opacity: 1;
+    transform: scale(1.1);
 }
 textarea{
     background-color: #e2e2e2;
+    
+}
+
+hr{
+    width: 5.7cm;
+    position: absolute;
+    left: 42%;
+    top: 1.4cm;
+    animation: increase 2s ease infinite;
+}
+
+@keyframes increase{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 1.75cm;
+    }
+    100%{
+        width: 5.5cm;
+    }
 }
